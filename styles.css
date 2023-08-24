@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: aqua;
+    min-height: 100vh;
+}
+
+nav {
+    position: fixed;
+    height: 80px;
+    width: 100vw;
+    background-color: beige;
+    padding-inline: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px ;
+}
+
+nav div {
+display:flex;
+gap: 50px;
+padding-left: 50px;
+}
+
+nav div a {
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+nav div a:hover {
+    transform: scale(150%);
+    outline: 2px solid black;
+    background-color: black;
+    border-radius: 25%;
+    color: white;
+    text-decoration: overline underline dashed;
+}
+
+main {
+    min-height: 100vh;
+    background-color: rgb(150, 56, 56);
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+header {
+    background-color: green;
+    min-height: calc(100vh - 80px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+main header button {
+    background-color: rgb(13, 228, 13);
+    border: none;
+   
+    padding: 5px 15px;
+    /* border-bottom: 4px solid rgb(0, 47, 0);
+    border-right:4px solid rgb(0, 47, 0); */
+    box-shadow: 5px 5px 0px rgb(8, 40, 0);
+    border-radius: 10px;
+    font-family: monospace;
+}
+
+main header button:hover {
+    background-color: rgb(8, 40, 0);
+    box-shadow: none;
+    transform: translateY(3px);
+    
+    scale: 110%;
+}
+
+main header button a{
+    color: black;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+main header button a:hover{
+    color: white;
+}
+
+main header button:active {
+    scale:90%
+}
+
+
+
+footer {
+    height: 200px;
+    background-color: rgb(108, 100, 91);
+}
