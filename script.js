@@ -1,30 +1,33 @@
-// console.log("Hello world")
+console.log("Hello world")
 
-// let firstName = "John"
-// let lastName = "Doe"
-
-
-// console.log(firstName)
-// console.log(lastName)
+let firstName = "John"
+let lastName = "Doe";
 
 
-// firstName = "Bob"
+console.log(firstName);
+console.log(lastName);
 
-// console.log(firstName)
+firstName = "Bob";
 
-// let fullName = "My name is " + firstName + " " + lastName
+console.log(firstName);
 
-// console.log(fullName)
+let fullName = "My name is " + firstName + " " + lastName;
+let conFullName = `My name is ${firstName} ${lastName} (this is used with template literals)`
 
-// console.log(1+2+2312+432)
 
-// let randomNumber = Math.random() * 5 + 1
+console.log(fullName)
 
-// console.log(randomNumber)
+console.log(conFullName)
 
-// let roundedNumber = Math.round(randomNumber)
+console.log(1+2+2312+432)
 
-// console.log(roundedNumber)
+let randomNumber = Math.random() * 5 + 1
+
+console.log(randomNumber)
+
+let roundedNumber = Math.round(randomNumber)
+
+console.log(roundedNumber)
 
 let suggestion = "hei"
 
